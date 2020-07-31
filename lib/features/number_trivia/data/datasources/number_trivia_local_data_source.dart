@@ -1,6 +1,4 @@
 import 'dart:convert';
-import 'dart:ffi';
-
 import 'package:fluttertddcleanarch/core/error/expections.dart';
 import 'package:meta/meta.dart';
 import 'package:fluttertddcleanarch/features/number_trivia/data/models/number_trivia_model.dart';

@@ -99,7 +99,7 @@ void main() {
             verify(mockRemoteDataSource.getConcreteNumberTrivia(tNumber));
             verify(mockLocalDataSource.cacheNumberTrivia(tNumberTriviaModel));
 
-            //expect(result, equals(Right(tNumberTrivia)));
+            expect(result, equals(Right(tNumberTrivia)));
           },
         );
 

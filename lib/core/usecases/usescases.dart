@@ -10,4 +10,7 @@ abstract class UseCase<Type, Params> {
 
 // Isso será usado pelo código que chama o caso de uso sempre que o caso de uso
 // não aceitar nenhum parâmetro.
-class NoParams extends Equatable {}
+class NoParams extends Equatable {
+  @override
+  List<Object> get props => [];
+}
